@@ -1,5 +1,5 @@
 .item {
-    background: #e7e7e7;
+    background: #efefef;
     border: 2px solid black;
     border-radius: 3px;
 }
@@ -32,4 +32,19 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.detail-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.page-login {
+    margin-top: 10%;
+}
+
+.login-background{
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
