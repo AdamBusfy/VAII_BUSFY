@@ -12,10 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d7c480ad-1332-426f-8ed3-7cf2a7fc3463" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addnew.html" beforeDir="false" afterPath="$PROJECT_DIR$/addnew.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gridview.css" beforeDir="false" afterPath="$PROJECT_DIR$/gridview.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602686837394</updated>
       <workItem from="1602686839350" duration="26805000" />
-      <workItem from="1603057022363" duration="8250000" />
+      <workItem from="1603057022363" duration="8492000" />
     </task>
     <task id="LOCAL-00001" summary="moj prvy commit">
       <created>1602686921387</created>
@@ -93,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603113030960</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="pridanie login menu">
+      <created>1603139637885</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603139637886</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +118,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="moj prvy commit" />
     <MESSAGE value="dalsi commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="dalsi commit" />
+    <MESSAGE value="pridanie login menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="pridanie login menu" />
   </component>
   <component name="WindowStateProjectService">
     <state x="144" y="87" key="#CLI_Interpreters" timestamp="1602700485333">
@@ -137,11 +142,11 @@
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800/-337.-1200.1920.1200@0.0.1280.800" timestamp="1602690008327" />
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800/-574.-1440.2560.1440@0.0.1280.800" timestamp="1603112961806" />
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800/-694.-1440.2560.1440@0.0.1280.800" timestamp="1602700438501" />
-    <state x="0" y="0" width="846" height="800" key="CommitChangelistDialog2" timestamp="1603113030615">
+    <state x="0" y="0" width="846" height="800" key="CommitChangelistDialog2" timestamp="1603139637674">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="0" y="0" width="846" height="800" key="CommitChangelistDialog2/0.0.1280.800/-337.-1200.1920.1200@0.0.1280.800" timestamp="1602687644792" />
-    <state x="0" y="0" width="846" height="800" key="CommitChangelistDialog2/0.0.1280.800/-574.-1440.2560.1440@0.0.1280.800" timestamp="1603113030615" />
+    <state x="0" y="0" width="846" height="800" key="CommitChangelistDialog2/0.0.1280.800/-574.-1440.2560.1440@0.0.1280.800" timestamp="1603139637674" />
     <state x="128" y="69" key="MergeDialog" timestamp="1602687706499">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
