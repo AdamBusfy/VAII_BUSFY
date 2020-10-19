@@ -1,0 +1,35 @@
+.item {
+    background: #e7e7e7;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.item > .item-image {
+    width: 100%;
+    height: auto;
+}
+
+.item > .item-text {
+    padding: 8px;
+}
+
+.item .item-title {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.item .item-description {
+    font-size: 15px;
+}
+
+.item .item-link {
+    text-align: center;
+}
+
+.text-oneliner {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
