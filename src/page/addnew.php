@@ -14,8 +14,6 @@ if (isset($_POST['create'])) {
     //var_dump($photo);
     if ($galleryStorage->addItem($title, $description, $photo)) {
         $_SESSION['flashMessage'] = 'Upload successful!';
-    } else {
-
     }
     header('Location: addnew.php');
     exit;

@@ -18,6 +18,14 @@ class GalleryStorage
         return $images;
     }
 
+    public function loadItemsThatContainsText(string $text)
+    {
+        $images = $this->database->getConnection()->query("SELECT * FROM item WHERE title LIKE '%$text%'");
+        $this->database->getConnection()->close();
+
+        return $images;
+    }
+
     public function loadItem(int $id)
     {
         $image = $this->database->getConnection()->query("SELECT * FROM item where id='$id'");
@@ -26,12 +34,12 @@ class GalleryStorage
         return $image;
     }
 
-    public function deleteItem(int $id)
+    public function deleteItem(int $id): bool
     {
         $image = $this->database->getConnection()->query("DELETE FROM item WHERE id='$id'");
         $this->database->getConnection()->close();
         header("Location: index.php");
-        return $image;
+        return TRUE;
     }
 
     public function updateItem(int $id, string $title, string $description, array $photo): bool

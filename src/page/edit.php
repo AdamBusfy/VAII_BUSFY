@@ -52,7 +52,7 @@ if (isset($_POST['edit'])) {
                         <input name="photo" type="file" class="form-control-file" accept="image/png,image/jpeg"
                                id="formControlFile">
                     </div>
-                    <button type="submit" class="btn btn-primary mb-2" name="edit">Submit</button>
+                    <button type="submit" class="btn btn-primary mb-2" name="edit">Update</button>
                 </form>
             </div>
         </div>
