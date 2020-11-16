@@ -5,4 +5,5 @@
       <path value="$USER_HOME$/Downloads/php_mysql/php" />
     </include_path>
   </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />
 </project>

@@ -1,0 +1,33 @@
+version: "3.8"
+
+services:
+  database:
+    image: mariadb:10.5.8
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+    ports:
+      - "33306:3306"
+  web:
+    build:
+      context: .
+      dockerfile: DockerFile.php
+    volumes:
+      - ./src:/var/www/html
+    ports:
+      - 8080:80
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:4.9
+    environment:
+      PMA_HOST: database
+      PMA_PORT: 3306
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - "8081:80"
+  adminer:
+    image: adminer:4.7.7
+    environment:
+      ADMINER_DEFAULT_SERVER: database
+    ports:
+      - "8082:8080"
