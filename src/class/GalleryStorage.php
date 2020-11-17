@@ -36,7 +36,7 @@ class GalleryStorage
 
     public function deleteItem(int $id): bool
     {
-        $image = $this->database->getConnection()->query("DELETE FROM item WHERE id='$id'");
+        $this->database->getConnection()->query("DELETE FROM item WHERE id='$id'");
         $this->database->getConnection()->close();
         header("Location: index.php");
         return TRUE;
@@ -65,7 +65,7 @@ class GalleryStorage
                         $photoCondition = ", photo='$photoData'";
                     }
 
-                    $result = $database->getConnection()->query(
+                    $database->getConnection()->query(
                         "UPDATE item SET title='$title', text='$description'$photoCondition WHERE id='$id'"
                     );
                     $database->getConnection()->close();
@@ -79,7 +79,7 @@ class GalleryStorage
                 $photoCondition = ", photo='$photoData'";
             }
 
-            $result = $database->getConnection()->query(
+            $database->getConnection()->query(
                 "UPDATE item SET title='$title', text='$description' WHERE id='$id'"
             );
             $database->getConnection()->close();
@@ -103,12 +103,12 @@ class GalleryStorage
                 $database = new Database();
 
                 $photoData = base64_encode($photoData);
-                $result = $database->getConnection()->query(
+                $database->getConnection()->query(
                     "INSERT into item (title, text, photo) VALUES ('$title', '$description', '$photoData')"
                 );
                 $database->getConnection()->close();
 
-//            var_dump(mysqli_error($database->getConnection()));
+//              var_dump(mysqli_error($database->getConnection()));
                 return TRUE;
             }
         }
